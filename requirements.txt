@@ -1,0 +1,7 @@
+# requirements.txt
+
+Flask
+pandas
+Pillow
+pytesseract
+flask-cors

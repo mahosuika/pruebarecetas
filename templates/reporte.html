@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Análisis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="report-page-container">
+        <h1>Reporte de Análisis</h1>
+
+        <!-- Aquí se insertará dinámicamente el contenido del reporte -->
+        <div id="report-content">
+            <p>Cargando reporte...</p>
+        </div>
+
+        <!-- Botón para regresar a la página principal -->
+        <div class="report-actions">
+            <a href="/" class="button-primary">Analizar otra imagen</a>
+        </div>
+    </div>
+
+    <!-- Script específico para construir la página de reporte -->
+    <script src="{{ url_for('static', filename='reporte.js') }}"></script>
+</body>
+</html>
